@@ -7,26 +7,7 @@ permalink: /
 
 ### Welcome!
 
-Theoretical physics is a branch of physics that focuses on the development of mathematical models and theories to understand and explain natural phenomena.
-It plays a crucial role in our understanding of the fundamental laws of the universe and the fundamental particles that make up all matter.
-Research in theoretical physics helps us to make predictions about how the universe works and to test these predictions through experiments.
-It also helps us to understand the fundamental principles that govern the behavior of matter and energy, and to explore the limits of our current knowledge.
-Theoretical physics helps us to make progress in a wide range of fields, including cosmology, particle physics, and quantum mechanics, and it has led to many important discoveries and technological innovations.
+Computer science education is increasingly critical for preparing well-trained professionals for the national economy and building a competitive workforce of the future. The emergence of generative AI provides an opportunity to improve computer science education by adapting the learning process to the needs and knowledge of individual learners. University of Pittsburgh, Carnegie-Mellon University, University of Massachusetts, and North Carolina State University will develop and evaluate a comprehensive personalized programming practice environment (C-3PE) that utilizes artificial intelligence (AI ) to enhance learning experiences. This project capitalizes on the power of generative AI and progress in learning science research to provide personalized learning experiences for computer science students. C-3PE recommends the most suitable learning activities for each student according to their current knowledge level and offers personalized feedback to support their progress. By conducting long-term classroom studies, the project team will assess the impact of AI-based personalization approaches and identify the most effective types of learning activities and feedback messages for students with different competency levels.
 
-<div class="container">
-<div class="row">
-<center>
-<img src="{{ site.url }}{{ site.baseurl }}/images/banner.jpg" width="100%"/><br/>
-Examples of Feynman diagrams. <br/>
-Feynman R., The theory of positrons. <i>Phys. Rev.</i> (1949)
-</center>
-</div>
-</div>
-<br/>
+Leveraging advances in AI-driven learning technologies and theoretical frameworks in learning sciences, C-3PE will deliver engaging computer science learning experiences. It will provide personalized practice support and detailed feedback for individual learners based on their practice history and current knowledge state. C-3PE will dynamically model the state of learner knowledge using context-aware deep-learning knowledge tracing models. Furthermore, the project team will develop a nested personalization approach with an outer loop and an inner loop. For the outer loop, the project will develop new, large language model (LLM)-powered adaptive testing algorithms that select the most informative next practice question/worked example for each student. For the inner loop, they will use preference optimization to align LLM-driven feedback generation with student learning outcomes. A sequence of experiments will lead to a better understanding of the kinds of practice opportunities (i.e., worked examples vs problems) and types of feedback messages that are most effective to each student. Utilizing an iterative design process to integrate insights from studies into the learning environment, the project will evaluate C-3PE in various introductory programming classrooms across diverse institutions. The project will enhance education through personalized recommendations and feedback, disseminating findings and tools through academic conferences and platforms, and sharing C-3PE via a GitHub repository for computer science instructors.
 
-### About me
-
-I am a physicist working in the field of quantum mechanics and quantum electrodynamics.
-I received my undergraduate degree in physics from the Massachusetts Institute of Technology (MIT) in 1939 and went on to earn my PhD from Princeton University in 1942.
-After completing my doctoral studies, I worked on the Manhattan Project, where I helped develop the first atomic bombs.
-After the war, I returned to academia, holding teaching and research positions at Cornell and now at the California Institute of Technology.
