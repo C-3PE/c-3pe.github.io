@@ -25,9 +25,9 @@ contact: >
 nav_pages:
   - name: about
   - name: publications
-  - name: talks
+  # - name: talks
   - name: research
-  - name: software
+  # - name: software
   - name: team
   # - name: teaching
   # - name: blogs
