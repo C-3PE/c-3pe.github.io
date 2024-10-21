@@ -1,7 +1,7 @@
 - name: Dr. Bita Akram
   photo: bakram.jpeg
   info: Assistant Professor, North Carolina State University
-  email: bakram@ncsu.edu
+  email: team/bakram@ncsu.edu
   # github: https://github.com/
   # researchgate: https://www.researchgate.net/profile/Bita-Akram
   # scholar: https://scholar.google.com/citations?user=ZEje0rwAAAAJ
@@ -15,3 +15,15 @@
 
   # educationshort:
   #   ["(1942) Ph.D. Physics, Princeton", "(1939) B.S. Physics, MIT"]
+- name: Dr. Andrew (Shiting) Lan
+  photo: andrewlan.jpeg
+  info: Assistant Professor, University of Massachusetts Amherst
+  email: andrewlan@cs.umass.edu
+- name: Dr. Paulo Carvalho
+  photo: team/pcarvalho.jpg
+  info: Assistant Professor, Carnegie Mellon 
+  email: pcarvalh@cs.cmu.edu
+- name: Dr. Peter Brusilovsky
+  photo: team/pbrusilovsky.avif
+  email: peterb@pitt.edu
+  info: Professor, University of Pittsburgh
