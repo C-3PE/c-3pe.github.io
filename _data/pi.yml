@@ -6,23 +6,19 @@
   # researchgate: https://www.researchgate.net/profile/Bita-Akram
   # scholar: https://scholar.google.com/citations?user=ZEje0rwAAAAJ
   # cv: cv/cv.pdf
-  # Change the items in "education" you have (up to 6)
-  # education:
-  #   [
-  #     "(1942) Ph.D. Physics, Princeton University",
-  #     "(1939) B.S. Physics, Massachusetts Institute of Technology",
-  #   ]
 
-  # educationshort:
-  #   ["(1942) Ph.D. Physics, Princeton", "(1939) B.S. Physics, MIT"]
 - name: Dr. Andrew (Shiting) Lan
   photo: team/andrewlan.jpeg
   info: Assistant Professor, University of Massachusetts Amherst
   email: andrewlan@cs.umass.edu
+  github: https://github.com/umass-ml4ed/
+  scholar: https://scholar.google.com/citations?user=ZYc-LuMAAAAJ&hl=en
+
 - name: Dr. Paulo Carvalho
   photo: team/pcarvalho.jpg
   info: Assistant Professor, Carnegie Mellon 
   email: pcarvalh@cs.cmu.edu
+
 - name: Dr. Peter Brusilovsky
   photo: team/pbrusilovsky.avif
   email: peterb@pitt.edu
