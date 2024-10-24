@@ -1,8 +1,8 @@
-- name: Example student name
-  photo: rock.jpg
-  info: Postdoc, started Oct 2040
-  email: exampleemail@gmail.com
-  website: https://website.com
+- name: John Marsden
+  photo: team/jmmarsde.jpg
+  info: PhD student, started Oct 2024
+  email: research@johnmarsden.dev
+  website: https://johnmarsden.dev
 
 - name: "This could be you !"
   photo: rock.jpg
