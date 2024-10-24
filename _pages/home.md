@@ -11,6 +11,4 @@ The Comprehensive Personalized Programming Practice Environment (C-3PE) is an NS
 
 If you are interested in collaborating with the project through integrating C-3PE in your classrooms, please email us.
 
-{% for member in site.data.pi %}
-
-{% endfor %}
+<a href="{{- site.data.pi | map: "email" | join: "," -}}" target="_blank"><i class="fa fa-envelope-square fa-2x"></i></a>
