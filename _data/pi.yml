@@ -1,6 +1,7 @@
 - name: Dr. Bita Akram
   photo: team/bakram.jpeg
-  info: Assistant Professor, North Carolina State University
+  title: Assistant Professor
+  affiliation: North Carolina State University
   email: bakram@ncsu.edu
   # github: https://github.com/
   # researchgate: https://www.researchgate.net/profile/Bita-Akram
@@ -9,17 +10,22 @@
 
 - name: Dr. Andrew (Shiting) Lan
   photo: team/andrewlan.jpeg
-  info: Assistant Professor, University of Massachusetts Amherst
+  title: Assistant Professor
+  affiliation: University of Massachusetts Amherst
   email: andrewlan@cs.umass.edu
   github: https://github.com/umass-ml4ed/
   scholar: https://scholar.google.com/citations?user=ZYc-LuMAAAAJ&hl=en
 
 - name: Dr. Paulo Carvalho
   photo: team/pcarvalho.jpg
-  info: Assistant Professor, Carnegie Mellon 
+  title: Assistant Professor
+  affiliation: Carnegie Mellon 
   email: pcarvalh@cs.cmu.edu
+  orcid: 0000-0002-0449-3733
+  scholar: https://scholar.google.com/citations?user=Pv5pct0AAAAJ&hl=en
 
 - name: Dr. Peter Brusilovsky
   photo: team/pbrusilovsky.avif
+  title: Professor
+  affiliation: University of Pittsburgh
   email: peterb@pitt.edu
-  info: Professor, University of Pittsburgh
