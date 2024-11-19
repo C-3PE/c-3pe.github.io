@@ -88,12 +88,12 @@ img {
   fill: #00bc8c!important;
 }
 
+.sidebar-img {
+  height: 60px;
+}
+
 @media (min-height: 400px) {
   .sidebar-img {
     height: 10vh;
   }
-}
-
-.sidebar-img {
-  height: 60px;
 }
