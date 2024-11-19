@@ -1,6 +1,17 @@
 <div>
+
+{% assign even_odd = 0 %}
+
 {% for member in site.data.pi %}
-<div class="jumbotron">
+
+{% assign even_odd = even_odd | modulo: 2 %}
+
+{% if even_odd == 0 %}
+
+<div class="row">
+{% endif %}
+
+<div class="col-sm-3 jumbotron">
    <center>
    <a href="{{site.url}}{{site.baseurl}}/about"><img src="{{site.url}}{{site.baseurl}}/images/{{ member.photo }}" width="60%" style="block:inline; margin-left:auto; margin-right:auto; margin-bottom:5px;"/></a>
    <h4>{{ member.name }}</h4>
@@ -21,6 +32,12 @@
   </ul>
 
 </div>
+
+{% if even_odd == 1 %}
+</div>
+{% endif %}
+
+{% assign even_odd = even_odd | plus: 1 %}
 {% endfor %}
 </div>
 
