@@ -86,3 +86,13 @@ img {
 .MathJax_ref {
   fill: #00bc8c!important;
 }
+
+@media (min-height: 600px) {
+  .sidebar-img {
+    height: 10vh;
+  }
+}
+
+.sidebar-img {
+  height: 60px;
+}
