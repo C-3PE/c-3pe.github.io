@@ -4,9 +4,10 @@
   <div class="panel-footer">
 	  <div class="row">
 		<div class="col-sm-4">
-		    <h5>Affiliations</h5>	
-            {% for pi in (site.data.pi | sort: "affiliation" ) %}
-			{{ pi.affiliation }}
+		    <h5>Affiliations</h5>
+			{% assign affs = site.data.pi | map: "affiliation" | sort %}
+            {% for aff in affs %}
+			{{ aff }}
 			{% endfor %}
 		</div>
 
