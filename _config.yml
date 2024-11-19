@@ -10,13 +10,6 @@ url: ""
 # google_analytics_4: XXX
 # google_tag_manager: XXX
 
-# Footer info
-affiliation: >
-  
-
-location: >
-  No good location?
-
 # Pages shown in navbar
 nav_pages:
   - name: about

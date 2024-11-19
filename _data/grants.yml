@@ -1,2 +1,17 @@
 # - name: Example Grant Here
 # - name: Example Grant Here
+# Dr. Brusilovsky's NSF grant
+- name: National Science Foundation Grant No. 2418655
+  url: https://www.nsf.gov/awardsearch/showAward?AWD_ID=2418655&HistoricalAwards=false
+
+# Dr. Carvalho's NSF grant
+- name: National Science Foundation Grant No. 2418656
+  url: https://www.nsf.gov/awardsearch/showAward?AWD_ID=2418656&HistoricalAwards=false
+
+# Dr. Lan's NSF grant
+- name: National Science Foundation Grant No. 2418657
+  url: https://www.nsf.gov/awardsearch/showAward?AWD_ID=2418657&HistoricalAwards=false
+
+# Dr. Akram's NSF grant
+- name: National Science Foundation Grant No. 2418658
+  url: https://www.nsf.gov/awardsearch/showAward?AWD_ID=2418658&HistoricalAwards=false
