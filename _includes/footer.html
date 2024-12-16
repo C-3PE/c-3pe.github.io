@@ -6,9 +6,11 @@
 		<div class="col-sm">
 		    <h5>Affiliations</h5>
 			{% assign affs = site.data.pi | map: "affiliation" | sort %}
-            {% for aff in affs %}
-			<p>{{ aff }}</p>
+			<ul class="list-group list-group-flush">
+			{% for aff in affs %}
+				<li class="list-group-item">{{ aff }}</li>
 			{% endfor %}
+			</ul>
 		</div>
 
 		<div class="col-sm">
