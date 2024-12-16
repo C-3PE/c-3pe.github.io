@@ -75,6 +75,7 @@ permalink: /team/
 {% endif %}
 </div>
 
+{% if site.data.alumni %}
 ## Alumni
 
 <div class="jumbotron">
@@ -112,6 +113,8 @@ permalink: /team/
 </div>
 {% endif %}
 </div>
+
+{% endif %}
 
 <!-- ## Administrative Support
 
