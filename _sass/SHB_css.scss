@@ -89,11 +89,12 @@ img {
 }
 
 .sidebar-img {
-  height: 60px;
+  max-height: 60px;
+  max-width: 100px;
 }
 
 @media (min-height: 400px) {
   .sidebar-img {
-    height: 17vh;
+    max-height: 17vh;
   }
 }
