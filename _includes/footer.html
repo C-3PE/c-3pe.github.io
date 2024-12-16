@@ -4,7 +4,7 @@
   <div class="panel-footer">
 	  <div class="row">
 		<div class="col-sm">
-		    <h5 class="translate-middle-x">Affiliations</h5>
+		    <h5>Affiliations</h5>
 			{% assign affs = site.data.pi | map: "affiliation" | sort %}
             {% for aff in affs %}
 			<p>{{ aff }}</p>
@@ -12,7 +12,7 @@
 		</div>
 
 		<div class="col-sm">
-		    <h5 class="translate-middle-x">Contact</h5>
+		    <h5>Contact</h5>
 			<a href="mailto:{{- site.data.pi | map: 'email' | join: ',' -}}" target="_blank"><i class="fa fa-envelope fa-1x"></i> Contact us!</a> <br/>
 			<a href="https://github.com/sbryngelson/academic-website-template"><i class="fa fa-github fa-1x"></i> Use this site as a template!</a>
 		</div>
