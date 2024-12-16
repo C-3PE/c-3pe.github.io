@@ -50,7 +50,7 @@ C-3PE will impact over 1,000 undergraduate students across a diverse range of in
   <h3>Grants</h3>
   <ul>
     {% for grant in site.data.grants %}
-      <li>{{ grant.name }}</li>
+      <li><a href="{{ grant.url }}">{{ grant.name }}</a></li>
     {% endfor %}
   </ul>
 </div>
