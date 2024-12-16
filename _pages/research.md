@@ -34,6 +34,6 @@ iframe {
 
 <div class="jumbotron">
 <div class="col-md-12 col-sm-12">
-<h4>Individual projects related to the project to be placed here</h4>
+<!-- <h4>Individual projects related to the project to be placed here</h4> -->
 </div>
 </div>
