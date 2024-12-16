@@ -13,16 +13,18 @@ The growing demand for CS education, coupled with the rise of generative artific
 
 C-3PE will impact over 1,000 undergraduate students across a diverse range of institutions, including North Carolina State University, the University of Pittsburgh, the University of Massachusetts Amherst, and Carnegie Mellon University. The project also includes collaborations with smaller colleges, such as North Carolina A&T State University, a Historically Black College and University (HBCU). If you are interested in collaborating with the project through integrating C-3PE in your classrooms, please email us.
 
+<a href="mailto:{{- site.data.pi | map: 'email' | join: ',' -}}" target="_blank"><i class="fa fa-envelope fa-5x"></i></a>
+
 ## PIs
 
 {% for member in site.data.pi %}
 
 <div class="jumbotron">
 <div class="row">
-<div class="col-sm-4">
+<div class="col-sm-2">
   <img src="{{ site.url }}{{ site.baseurl }}/images/{{ member.photo }}" width="100%" style="max-width:250px"/>
 </div>
-<div class="col-sm-8 col-xs-12">
+<div class="col-sm-9 col-xs-12">
   <h3>{{ member.name }}</h3>
   <h4><i>{{ member.title }}, {{ member.affiliation }}</i></h4>
   <p>

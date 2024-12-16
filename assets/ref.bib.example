@@ -1,3 +1,5 @@
+
+
 @incollection{example_invited_talk,
   author = {J. Doe},
   note = {Example Location},
@@ -14,13 +16,19 @@
 }
 
 @inproceedings{example_proceeding,
-    Author = {J. Doe},
-    Year = {2040},
-    Title = {Example title},
-    Booktitle = {Example Book},
-    Address = {Pasadena, CA},
-    file = {example_proceeding.pdf},
-    abstract = {Example abstract.},
+  title        = {An Analysis of Example},
+  author       = {John Smith and Jane Doe},
+  year         = 2022,
+  month        = {June},
+  booktitle    = {Proceedings of the International Conference on Example},
+  publisher    = {ACM Press},
+  address      = {New York, NY},
+  series       = {Example Conference Proceedings},
+  volume       = 1,
+  number       = 2,
+  pages        = {123--130},
+  editor       = {David Brown and Susan Green},
+  organization = {ACM}
 }
 
 @incollection{example_conference,
