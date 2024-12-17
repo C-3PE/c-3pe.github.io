@@ -17,8 +17,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             {% assign home_page = "/" %}
             <a class="nav-item nav-link{% if page.url == home_page %} active {% endif %}" href="{{ site.url }}{{ site.baseurl }}/">Home</a>
             {% for p in site.nav_pages %}
-                {% assign cur_page = p.name | prepend: "/" %}
-                {{ page.url }}
+                {% assign cur_page = p.name | prepend: "/" | append: "/" %}
                 <a class="nav-item nav-link{% if page.url == cur_page %} active {% endif %} " href="{{ site.url }}{{ site.baseurl }}/{{p.name}}">{{p.name | capitalize }}</a>
             {% endfor %}
         </div>
