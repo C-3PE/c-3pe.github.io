@@ -5,7 +5,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 <nav class="navbar sticky-top navbar-expand-md navbar-dark bg-dark">
     <a class="navbar-brand" href="{{ site.url }}{{ site.baseurl }}/">
-     <img src="{{ site.url }}{{ site.baseurl }}/favicon/logo.png" width="50" height="50" style="margin-top:-20px;margin-bottom:-20px;margin-right:-10px" class="d-inline-block align-top" alt="">
+     <img src="{{ site.url }}{{ site.baseurl }}/favicon/logo.png" width="70" height="70" style="margin-top:-20px;margin-bottom:-20px;margin-right:5px" class="d-inline-block align-top" alt="">
       {{ site.title | escape }}
     </a>
     <button class="toggler navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
@@ -14,9 +14,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
     <div class="collapse navbar-collapse" id="navbarColor02">
         <div class="navbar-nav mr-auto" role="navigation">
-            <a class="nav-item nav-link{%- if request.path == '' %} active{%- endif -%}" href="{{ site.url }}{{ site.baseurl }}/">Home</a>
+            <a class="nav-item nav-link{%- if request.path == '/' %} active{% else %}{{request.path}}{%- endif -%}" href="{{ site.url }}{{ site.baseurl }}/">Home</a>
             {% for page in site.nav_pages %}       
-                <a class="nav-item nav-link{%- if request.path == '' %} active{%- endif -%}" href="{{ site.url }}{{ site.baseurl }}/{{page.name}}">{{page.name | capitalize }}</a>
+                <a class="nav-item nav-link{%- if request.path == '/' + page.name %} active{% else %}{{request.path}}{%- endif -%}" href="{{ site.url }}{{ site.baseurl }}/{{page.name}}">{{page.name | capitalize }}</a>
             {% endfor %}
         </div>
     </div>
