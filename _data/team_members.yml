@@ -1,5 +1,11 @@
 - name: Muntasir Hoq
-  photo: team/mhoq.jpeg
+  #photo: team/mhoq.jpeg
   title: PhD Student
   affiliation: North Carolina State University
   email: mhoq@ncsu.edu
+
+- name: Jordan Barria-Pineda
+  #photo: team/mhoq.jpeg
+  title: PhD Candidate
+  affiliation: University of Pittsburgh
+  email: jab464@pitt.edu
