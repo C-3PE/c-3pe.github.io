@@ -1,3 +1,5 @@
-- name: "This could be you !"
-  photo: rock.jpg
-  info: See <a href="www">openings</a> for more info
+- name: Muntasir Hoq
+  #photo: team/bakram.jpeg
+  title: PhD Student
+  affiliation: North Carolina State University
+  email: mhoq@ncsu.edu
