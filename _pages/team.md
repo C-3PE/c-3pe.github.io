@@ -9,8 +9,8 @@ permalink: /team/
 
 **If you are interested in joining this project, please apply to one of the PhD programs listed below and mention the project member you would like to work with:**
 
-- [Intelligent Systems PhD Program](https://www.sci.pitt.edu/academics/doctoral-degrees/intelligent-systems-phd)
-- [Information Science PhD Program](https://www.sci.pitt.edu/academics/doctoral-degrees/information-science-phd)
+- [Intelligent Systems PhD Program (upitt)](https://www.sci.pitt.edu/academics/doctoral-degrees/intelligent-systems-phd)
+- [Information Science PhD Program(upitt)](https://www.sci.pitt.edu/academics/doctoral-degrees/information-science-phd)
 
 
 ## PIs
