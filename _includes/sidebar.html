@@ -1,48 +1,30 @@
-<div class="container-fluid">
-
-{% assign even_odd = 0 %}
+<h3 style="margin-bottom: 20px;">Principal Investigators</h3>
 
 {% for member in site.data.pi %}
-
-{% assign even_odd = even_odd | modulo: 2 %}
-
-{% if even_odd == 0 %}
-
-<div class="row">
-{% endif %}
-
-<div class="col-sm jumbotron">
-   <center>
-   <a href="{{site.url}}{{site.baseurl}}/about"><img class="sidebar-img" src="{{site.url}}{{site.baseurl}}/images/{{ member.photo }}" style="block:inline; margin-left:auto; margin-right:auto; margin-bottom:5px;"/></a>
-   <h5>{{ member.name }}</h5>
-   <div>
-   {% if member.email %}<a href="mailto:{{ member.email }}" target="_blank"><i class="fa fa-envelope-square fa-2x"></i></a> {% endif %}
-   {% if member.cv %} <a href="{{ site.url }}{{ site.baseurl }}/{{ member.cv }}" target="_blank"><i class="ai ai-cv-square ai-2x"></i></a> {% endif %}
-   {% if member.scholar %} <a href="{{ member.scholar }}" target="_blank"><i class="ai ai-google-scholar-square ai-2x"></i></a> {% endif %}
-   {% if member.github %} <a href="{{ member.github }}" target="_blank"><i class="fa fa-github-square fa-2x"></i></a> {% endif %}
-   {% if member.researchgate %} <a href="{{ member.researchgate }}" target="_blank"><i class="ai ai-researchgate-square ai-2x"></i></a> {% endif %}
-   {% if member.orcid %} <a href="https://orcid.org/{{ member.orcid }}"><i class="ai ai-orcid-square ai-2x"></i></a> {% endif %}
+<div class="pi-card">
+  <a href="{{site.url}}{{site.baseurl}}/about"><img src="{{site.url}}{{site.baseurl}}/images/{{ member.photo }}" alt="{{ member.name }}"/></a>
+  <div class="pi-info">
+    <h4>{{ member.name }}</h4>
+    <div class="pi-title">{{ member.affiliation }}</div>
+    <div class="pi-links">
+      {% if member.email %}<a href="mailto:{{ member.email }}" target="_blank"><i class="fa fa-envelope-square fa-lg"></i></a>{% endif %}
+      {% if member.scholar %}<a href="{{ member.scholar }}" target="_blank"><i class="ai ai-google-scholar-square ai-lg"></i></a>{% endif %}
+      {% if member.github %}<a href="{{ member.github }}" target="_blank"><i class="fa fa-github-square fa-lg"></i></a>{% endif %}
+      {% if member.orcid %}<a href="https://orcid.org/{{ member.orcid }}"><i class="ai ai-orcid-square ai-lg"></i></a>{% endif %}
+    </div>
   </div>
-  </center>
-
 </div>
+{% endfor %}
 
-{% if even_odd == 1 %}
+{% if site.data.news.size > 0 %}
+<h3 style="margin-top: 30px; margin-bottom: 15px;">News</h3>
+<div class="card-clean">
+  {% for article in site.data.news limit:4 %}
+  <div style="margin-bottom: 12px; padding-bottom: 12px; border-bottom: 1px solid #4a6278;">
+    <small style="opacity: 0.6;">{{ article.date }}</small>
+    <p style="margin: 4px 0 0; font-size: 0.92rem;">{{ article.headline }}</p>
+  </div>
+  {% endfor %}
+  <a href="{{ site.url }}{{ site.baseurl }}/allnews.html" style="font-size: 0.9rem;">See all news &rarr;</a>
 </div>
 {% endif %}
-
-{% assign even_odd = even_odd | plus: 1 %}
-{% endfor %}
-</div>
-
-<div class="jumbotron">
-  <h4>News</h4>
-
-  {% for article in site.data.news limit:3 %}
-  <b>{{ article.date }}</b>
-    <p>{{ article.headline }}</p>
-  {% endfor %}
-  
-  <h5><a href="{{ site.url }}{{ site.baseurl }}/allnews.html">... see all News</a></h5>
-
-</div>

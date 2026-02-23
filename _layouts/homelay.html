@@ -2,10 +2,23 @@
 layout: default
 ---
 
-  <div id="homeid" class="col-sm-6 col-xs-12">
-	{{ content }}
+<!-- Hero -->
+<div class="col-12">
+  <div class="hero-section">
+    <img class="hero-logo" src="{{ site.url }}{{ site.baseurl }}/favicon/logo.png" alt="C-3PE"/>
+    <h1>C-3PE</h1>
+    <p class="hero-subtitle">Comprehensive Personalized Programming Practice Environment</p>
   </div>
-  
-  <div id="newsid" class="col-sm-6 col-xs-12" >
-	{% include sidebar.html %}
+</div>
+
+<!-- Main content area -->
+<div class="col-lg-7 col-md-7 col-sm-12">
+  <div class="home-content">
+    {{ content }}
   </div>
+</div>
+
+<!-- Sidebar -->
+<div class="col-lg-5 col-md-5 col-sm-12">
+  {% include sidebar.html %}
+</div>
