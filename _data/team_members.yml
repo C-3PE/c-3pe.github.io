@@ -1,11 +1,47 @@
+# Bita Akram's Students
 - name: Muntasir Hoq
   photo: team/mhoq.jpg
   title: PhD Student
   affiliation: North Carolina State University
   email: mhoq@ncsu.edu
+  advisor: Bita Akram
 
 - name: Jordan Barria-Pineda
   photo: team/jordan.png
   title: PhD Candidate
   affiliation: University of Pittsburgh
   email: jab464@pitt.edu
+  advisor: Peter Brusilovsky
+
+- name: Griffin Pitts
+  title: PhD Student
+  affiliation: North Carolina State University
+  advisor: Bita Akram
+
+# Andrew Lan's Students
+- name: Zhangqi Duan
+  title: PhD Student
+  affiliation: University of Massachusetts Amherst
+  advisor: Andrew Lan
+
+# Peter Brusilovsky's Students
+- name: Arun Balajiee Lekshmi Narayanan
+  title: PhD Student
+  affiliation: University of Pittsburgh
+  advisor: Peter Brusilovsky
+
+- name: Rafaella Sampaio de Alencar
+  title: PhD Student
+  affiliation: University of Pittsburgh
+  advisor: Peter Brusilovsky
+
+# Paulo Carvalho's Students
+- name: Gillian Gold
+  title: PhD Student, HCII
+  affiliation: Carnegie Mellon University
+  advisor: Paulo Carvalho
+
+- name: Jordan Gutterman
+  title: MS in Public Policy (Data Analytics)
+  affiliation: Carnegie Mellon University
+  advisor: Paulo Carvalho
